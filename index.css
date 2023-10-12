@@ -1,0 +1,170 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Raleway", Arial, sans-serif;
+  margin: 0;
+}
+
+.header {
+  padding: 28px 16px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  color: #938989;
+ 
+}
+.about {
+  color: #938989;
+  text-decoration: none;
+}
+.about:hover {
+  background-color: #938989;
+  color: black;
+}
+.myart:hover {
+  background-color: #938989;
+  color: black;
+}
+
+.container {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+
+.img-1 {
+  width: 100%;
+  margin-bottom: -8px;
+}
+
+.image-main {
+  width: 50%;
+}
+.pictures_main {
+  width: 50%;
+}
+.pictures_main_2 {
+  width: 50%;
+}
+.img_1 {
+  width: 100%;
+  margin-bottom: -8px;
+}
+.two_pictures_main {
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+.about_main {
+  background-color: #f1f1f1;
+  justify-content: center;
+  text-align: center;
+}
+
+.about_pra {
+  padding-top: 50px;
+}
+
+.about_pra_2 {
+  text-align: center;
+  color: #E91E63;
+  font-family: "Raleway", Arial, sans-serif;
+  font-size: 18px;
+  margin: 5px 0px 5px 0px;
+  width: 60%;
+  margin: auto;
+
+}
+
+.heading_about {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.name {
+  margin: 30px;
+}
+
+.input{
+  display: flex;
+  flex-direction: column;
+}
+
+.form_main {
+  padding-left: 350px;
+  padding-right: 350px;
+}
+.input_text {
+  text-align: center;
+  padding: 15px;
+  border: 2;
+}
+.name_text {
+  padding-top: 35px;
+}
+
+.button_send {
+  width: 100%;
+  margin-top: 35px;
+  height: 50px;
+  font-size: 20px;
+  color: #fff;
+  background-color: #616161;
+}
+.button_send:hover {
+  background-color: #c2c2c2;
+  color: black;
+  border: 0;
+}
+.last_pra {
+  padding: 21px;
+  color: #979082;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+  .header {
+    font-size: 20px;
+   
+
+  }
+  .container{
+    width: 100%;
+  }
+  .about_pra {
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 72px;
+  }
+  .form_main {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .pictures_main {
+    width: 100%;
+  }
+  .pictures_main_2 {
+    width: 100%;
+  }
+  .two_pictures_main {
+    display: block;
+    flex-direction: row;
+  }
+  .input_text {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .button_send {
+    width: 68%;
+    border: 0;
+  }
+}
